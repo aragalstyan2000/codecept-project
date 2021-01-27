@@ -1,7 +1,7 @@
 exports.config = {
   output: './output',
   helpers: {
-    Playwright: {
+    Playwright: {  //stex protractor a petq dnel helper@ vor karananqn ogtagorcenq bayc vor anum run em tali error a stacvum
       url: 'https://www.oranum.com/',
       show: true,
       browser: 'chromium'
@@ -9,7 +9,7 @@ exports.config = {
   },
   include: {
     homePage: './pages/home_page.js',
-    // ghSearchPage: PAGES_PATH + 'github/gh-search.page.js'
+    searchPage: './pages/search_page.js'
   },
   mocha: {},
   bootstrap: null,
