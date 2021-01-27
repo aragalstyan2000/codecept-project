@@ -17,7 +17,7 @@ exports.config = {
   hooks: [],
   gherkin: {
     features: './tests/*.feature',
-    steps: ['./tests/first_test/first_test.js']
+    steps: ['./tests/req2/req2.js']
   },
   plugins: {
     screenshotOnFail: {
